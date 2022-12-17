@@ -20,3 +20,23 @@ var fazerCalculos = () => {
 }
 
 console.log(fazerCalculos());
+
+var numero = 1.044;
+var _nome = "João";
+
+console.log(numero);
+
+numero = '1';
+
+console.log(numero);
+console.log(_nome);
+console.log(typeof(_nome));
+
+var graus = 0;
+
+const verificaTemperatura = (graus) => {
+
+  graus > 0 ? "Temperatura acima de 0ºC" : "Temperatura abaixo de 0ºC";
+}
+
+console.log(verificaTemperatura(94));
