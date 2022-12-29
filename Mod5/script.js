@@ -45,3 +45,31 @@ function fun2() {
 }
 
 fun2();
+
+console.log("==============================");
+console.log("5. Local Scope and Functions");
+const myVar = "Felipe";
+function myLocalScope() {
+  // Only change code below this line
+  const myVar = "Bruno";
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
+console.log("==============================");
+console.log("6. Local vs. Global Scope and Functions");
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater";
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
