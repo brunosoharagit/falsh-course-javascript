@@ -4,5 +4,8 @@ const Distribuidora = class Distribuidora {
   }
 }
 
-const cpfl1 = new Distribuidora("CPFL Piratininga");
+const cpfl1 = new Distribuidora("CPFL Paulista");
+const elektro1 = new Distribuidora("Elektro");
+
 console.log(cpfl1);
+console.log(elektro1);
