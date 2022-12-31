@@ -85,3 +85,17 @@ function testLogicalAnd(val) {
 
 console.log(testLogicalAnd(10));
 //#endregion
+
+//#region 6. logical operator OR (||)
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val > 20 || val < 10) {
+    return "Outside";
+  }
+
+  // Only change code above this line
+  return "Inside";
+}
+console.log(testLogicalOr(15));
+//#endregion
