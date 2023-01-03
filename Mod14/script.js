@@ -121,5 +121,87 @@ function phoneticLookup(val) {
 phoneticLookup("charlie");
 //#endregion
 
+//#region 10. testing objects for props
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  if(obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  }
+  else {
+    return "Not Found";
+  }
+  return "Change Me!";
+  // Only change code above this line
+}
+//#endregion
+
+//#region 11. manipulating the complex objects
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+    "artist": "Linkin Park",
+    "title": "Hybrid Theory",
+    "release_year": 2000,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+//#endregion
+
+//#region 12. accessing nested objects
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
+//#endregion
+
+//#region 13. accessing nested arrays
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+const secondTree = myPlants[1].list[1];
+//#endregion
+
+
+
 
 
