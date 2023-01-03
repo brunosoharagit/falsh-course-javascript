@@ -81,3 +81,45 @@ const myDog2 = {
 
 myDog2.bark = "woof";
 //#endregion
+
+//#region 8. delete existing object data variable
+// Setup
+const myDog3 = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog3.tails;
+//#endregion
+
+//#region 9. lookup in the object
+// Setup
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+
+  const lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  }
+
+  result = lookup[val];
+
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
+//#endregion
+
+
+
