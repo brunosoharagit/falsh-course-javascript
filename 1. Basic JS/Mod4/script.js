@@ -1,18 +1,18 @@
 //Array methods
-console.log("1. push() method");
+console.log("1. push() method"); //adiciona o elemento que está na última posição
 
 const mySkillPets = [["Willow", 13045444], ["Ramsay", 14045450], ["Sifu", 97890123]];
 console.log(mySkillPets);
 mySkillPets.push(["Archie", 37685555]);
 console.log(mySkillPets);
 
-console.log("2. pop() method");
+console.log("2. pop() method"); //remove o último item da lista
 const players = [["Beluga", 138], ["Kaze2", 138], ["Nox Requiem", 138]];
 console.log(players);
 players.pop();
 console.log(players);
 
-console.log("3. shift() method");
+console.log("3. shift() method"); // remove o primeiro item da lista
 const numbers = [12, 44, 151, 129, 24];
 console.log(numbers);
 numbers.shift();
